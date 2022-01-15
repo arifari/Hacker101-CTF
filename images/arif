@@ -1,1 +1,12 @@
-adasdasdasdasdasdsad
+PORTSWIGGER WEB SECURITY - XSS (CROSS SITE SCRIPTING) LAB ÇÖZÜMLERİ
+Cross Site Scripting (Siteler Arası Komut Dosyası Çalıştırma), saldırganın bir web uygulamasında çalıştırdığı zararlı komutlar sonucunda, kullanıcıların güvenlik zafiyeti bulunan bu web uygulamasıyla olan etkileşimlerini tehlikeye atmasına neden olan bir web güvenliği zafiyetidir. XSS zafiyeti, hedef kullanıcıların session bilgilerinin ele geçirilmesi, hassas verilerin açığa çıkarılması gibi birçok kötü sonuca neden olmaktadır. XSS payloadları formlarda, yorum mesajlarında veya search alanlarında çalıştırılabilmektedir. Bir web uygulaması, ürettiği çıktıda filtrelenmemiş yada gerekli önlemleri almamış kullanıcı girdisi döndürüyorsa, XSS saldırılarına karşı savunmasız olacaktır.
+Bu çalışmada bahsedilen XSS zafiyeti için laboratuvar çözümleri ele alınmıştır. Keyifli okumalar..
+Lab 1: Reflected XSS into HTML context with nothing encoded
+Reflected XSS zafiyeti bulunan bir web uygulaması, saldırganın tarayıcısından alınan doğrulanmamış input değerini ekranda doğrudan görüntüler. Bu bilgi doğrultusunda sayfa üzerinde bir Reflected XSS zafiyeti tespit edeceğiz.
+Sayfa üzerinde bir arama kutusu mevcuttur. İlk olarak rastgele bir değer aratalım ve arattığımız bu değer ekranda doğrudan sonuç olarak dönüyor mu gözlemleyelim.
+Sayfadan alınan yanıt 0 search results for 'arif1234' şeklindedir ve kullanıcıdan alınan input değeri (arif1234), doğrudan ekrana basılmaktadır.
+Şimdi  bir xss denemesi yapabiliriz. Herhangi bir filtreleme veya güvenlik önlemi söz konusu değilse submit edeceğimiz bu basit xss payloadı (<script>alert(5)</script>) çalışacaktır ve ekranda bir pop-up uyarısı verilecektir.
+Pop-up Uyarı EkranıInput ettiğimiz payload web sunucusu tarafından bir string değeri olarak değilde bir javascript komutu olarak algılandığı için payload çalıştı ve ekranda bir pop-up uyarısı açıldı. İlk laboratuvarın çözümü bu şekildedir.
+NOT: Reflected XSS zafiyetinde, zararlı komutun enjekte edildiği sayfanın URL'i hedef kullanıcıya gönderildiğinde ve hedef kullanıcı tarafından açıldığında, saldırganın çalıştırmış olduğu komut hedef kullanıcının tarayıcısında çalışır. Gönderilen zararlı komut dosyası ile herhangi bir eylem gerçekleştirilebilir ve kullanıcının erişimi olan herhangi bir veri ele geçirilebilir. 
+
+Congrulations, you solved the lab!
