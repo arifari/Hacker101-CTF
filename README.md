@@ -3,7 +3,8 @@
 **HackerOne;** işletmeleri, sızma testi uzmanları ve siber güvenlik araştırmacıları ile birleştiren, güvenlik açıklarının yer aldığı bir platformdur. Bu platformda yer alan **Hacker101,** web güvenliği alanı için zafiyetli oluşturulmuş ücretsiz bir sınıftır. Güvenlik açıklarından esinlenen bu sınıf, kullanıcılar için Bayrak Yakalama (CTF) becerilerini pratiğe dökmelerine imkan sağlamaktadır. Keşfedilebilirliği zorluk seviyesine göre değişiklik gösteren güvenlik açıklarını tespit edip  kullanarak bayrak elde etmeye çalışılmaktadır.
 
 ## Laboratuvarlar
-[Cody's First Blog (Flag 0)]()
+[Cody's First Blog (Flag 0)](https://github.com/arifari/Hacker101-CTF/blob/main/README.md#codys-first-blog-flag-0)
+
 [Micro-CMS v1 (Flag 3)]()
 
  
