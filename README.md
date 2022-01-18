@@ -2,8 +2,14 @@
 ## Açıklama
 **HackerOne;** işletmeleri, sızma testi uzmanları ve siber güvenlik araştırmacıları ile birleştiren, güvenlik açıklarının yer aldığı bir platformdur. Bu platformda yer alan **Hacker101,** web güvenliği alanı için zafiyetli oluşturulmuş ücretsiz bir sınıftır. Güvenlik açıklarından esinlenen bu sınıf, kullanıcılar için Bayrak Yakalama (CTF) becerilerini pratiğe dökmelerine imkan sağlamaktadır. Keşfedilebilirliği zorluk seviyesine göre değişiklik gösteren güvenlik açıklarını tespit edip  kullanarak bayrak elde etmeye çalışılmaktadır.
 
+## Laboratuvarlar
+
+### A Little Something To Get You Started (Başlangıç)
+### Micro-CMS v1 (Flag 0)
+### Micro-CMS v1 (Flag 1)
+
 Çalışmada HackerOne CTF'ine dair bazı başlıkların çözümüne değinilmiştir. CTF’in çözümü için öncelikle HackerOne'a kayıt olunması gerekmektedir. Ardından ctf.hacker101.com adresinden CTF çözülebilir.
-## A Little Something To Get You Started (Başlangıç)
+### A Little Something To Get You Started (Başlangıç)
 Hacker101'de ki ilk CTF olan ısındırma amaçlı bu başlangıç bölümü için sayfa görüntülendiğinde karşımıza bu şekilde bir yazı çıkacaktır.
 
 ![](https://github.com/arifari/Hacker101-CTF/blob/main/images/Ekran%20Al%C4%B1nt%C4%B1s%C4%B11.PNG)
