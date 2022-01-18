@@ -5,8 +5,7 @@
 ## Laboratuvarlar
 
 ## A Little Something To Get You Started (Başlangıç)
-## Micro-CMS v1 (Flag 0)
-## Micro-CMS v1 (Flag 1)
+## Micro cms v2 flag2 
 
 Çalışmada HackerOne CTF'ine dair bazı başlıkların çözümüne değinilmiştir. CTF’in çözümü için öncelikle HackerOne'a kayıt olunması gerekmektedir. Ardından ctf.hacker101.com adresinden CTF çözülebilir.
 ### A Little Something To Get You Started (Başlangıç)
